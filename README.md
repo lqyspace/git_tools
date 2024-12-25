@@ -6,6 +6,7 @@
 - 读取repos.conf，所以提前把git地址按格式填入repos.conf
 - 在[]里自定义本地的git仓库存储路径——>相对路径
 - 若[]没有自定义路径，会使用git中的部分文件路径
+- 允许按照分支拉取，当没有分支时，默认master
 
 > repos.conf
 ```shell
