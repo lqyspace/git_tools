@@ -11,11 +11,11 @@
 > repos.conf
 ```shell
 [relative_path]
-git@github.xxxxxxxxxxxxxxxxxxxx@repo.git
+git@github.xxxxxxxxxxxxxxxxxxxx@repo.git,main
 
 [./]
 git@github.xxxxxxxxxxxxxxxxxxxx@repo.git
 
 []
-git@github.xxxxxxxxxxxxxxxxxxxx@repo.git
+git@github.xxxxxxxxxxxxxxxxxxxx@repo.git,main
 ```
